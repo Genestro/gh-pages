@@ -1,0 +1,16 @@
+.tekst {font-weight: bold}
+.body{background-image: url(/img/space.jpg)}
+.raket{
+    display: block;
+    text-indent: 1px;
+    width: 1000px;
+    height: 820px;
+    background: url(/img/raket.svg);
+    background-size: 500px 500px;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 1s ease-in-out;
+position: relative; top: 0px}
+:hover.raket{position: relative; top: -2000px}
